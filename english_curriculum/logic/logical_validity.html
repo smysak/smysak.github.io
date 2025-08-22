@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forming Valid Arguments</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <h3>Valid and Invalid Arguments</h3>
+    <p>Once we are able to recognize an argument, the next step is to learn what differentiates a good argument from a bad one. We have 
+        two crucial attributes for judging arguments. They are <b>validity</b> and <b>soundness</b>. The beautiful thing about logic is 
+        that there is no grey area. An argument is either valid, or invalid. It is either sound or unsound. And, in order for an 
+        argument to be sound, it <em>must</em> be valid.
+    </p>
+        <ol type="A">
+            <p>Consider the difference between the following two arguments:</p>
+                        <li>
+                <ol>
+                    <li>All birds have wings.</li>
+                    <li>Penguins have wings.</li>
+                    <li>Therefore, penguins are birds.</li>
+                </ol>
+            </li>
+            <br />
+            <li>
+                <ol>
+                    <li>All winged things are birds.</li>
+                    <li>Airplanes have wings.</li>
+                    <li>Therefore, airplanes are birds.</li>
+                </ol>
+            </li>
+            <p>Which one do you prefer?</p>
+            <p>What if I told you that they are <strong>both</strong> problematic arguments?</p>
+        </ol>
+    <p>Let's look at argument A first: Although it conforms to what we know about birds (even the little kiwi has cute stubby wings),
+        There is a problem with the logical structure of the argument. This might be easier to recognize if we remove the features we 
+        are familiar with, and replace the parts with algebraic symbols.
+        <ol type="A">
+            <p>Take another look at the argument now:</p>
+            <li>
+            <ol>
+                <li>All (every subset of) <i>B</i> has <i>W</i>.</li>
+                <li><i>P</i> has <i>W</i>.</li>
+                <li><i>P</i> is a subset of <i>B</i>.</li>
+            </ol>
+            </li>
+            <p>Although <i>P</i> has the attribute of <i>W</i>, there is nothing that links that to being a member of <i>B</i>.</p>
+            <p>The conclusion <b>does not follow</b> from the premises, and so we say that the argument is <b>invalid</b>.</p>
+        </ol>
+    <p>Contrast this with a valid argument:</p>
+    <ol type=A>
+        <li>
+            <ol>
+                <li>All birds have wings.</li>
+                <li>Penguins are birds.</li>
+                <li>So, Penguins have wings.</li>
+            </ol>
+        </li>
+        <p>Here, the conclusion <b>does follow</b> from the premises, and so the argument is considered <b>valid</b>.</p>
+    </ol>
+    <br />
+    <p>A valid argument is an argument where the conclusion necessarily follows from its premises. It is such that, <strong>if all 
+        of the argument's premises are true, then the conclusion must be true</strong>.
+    </p>
+    <br />
+    <p>What about Argument B?</p>
+    <ol type="A" start="2">
+        <li>
+            <ol>
+                <li>All winged things are birds.</li>
+                <li>Airplanes have wings.</li>
+                <li>Therefore, airplanes are birds.</li>
+            </ol>
+        </li>
+        <p>Or,</p>
+    </ol>
+    <ol type="A" start="2">
+        <li>
+            <ol>
+                <li>Anything with the attribute <i>W</i> is <i>B</i>.</li>
+                <li><i>A</i> has the attribute <i>W</i>.</li>
+                <li>So, <i>A</i> is <i>B</i>.</li>
+            </ol>
+        </li>
+        <p>Or, even more simplified,</p>
+    </ol>
+    <ol type="A" start="2">
+        <li>
+            <ol>
+                <li>X=Y</li>
+                <li>Z=X</li>
+                <li>Z=Y</li>
+            </ol>
+        </li>
+        <p>The conclusion follows from its premises - if 1. and 2. are true, then 3. <em>must</em> be true. So, the argument is valid.</p>
+        <p>However, premise 1. is not true. And because of this untruth, 3. is not true. So, the argument is considered <b>unsound</b>.</p>
+    </ol>
+    <br />
+    <p>Remember that if an argument is valid, when its premises are true the conclusion must be true. Soundness is the way we refer to 
+        valid arguments which pass this check. If an argument is valid, <strong>and all of its premises <em>are</em> true</strong>, then 
+        the argument is considered sound.</p>
+    <br />
+    <p>Simple examples aside, it is much harder to find sound arguments than one might think. This is because except for situations 
+        where truth is a function of language (something that is true <em>by definition</em>), such as, "All bachelors are unmarried."
+        If we were to say, "All swans are white", we might think that the premise is true... until someone discovers a black swan. 
+    </p>
+    <p>For now, let's focus on validity (and just try to make the premises as true as possible).</p>
+    <hr>
+    <p>Back to subject <a href="arg_mainpage.html" target="_self" rel="noopener noreferrer">mainpage</a>.</p>
+</body>
+</html>
