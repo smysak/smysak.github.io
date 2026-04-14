@@ -12,7 +12,14 @@ body {
 }
 
 a {
-    color: teal;
+    color: #3D6066;
     text-decoration: none;
     font-weight: 600;
 }
+
+hr {
+	color: #3D6066;
+	margin: 16px 64px 32px;
+	border: solid 1px #3D6066;	
+}
+
