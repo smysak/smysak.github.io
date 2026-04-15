@@ -2,8 +2,8 @@
     display: flex;
     color: #edd1b0;
     background-color:#3D6066;
-    background-image: linear-gradient(to bottom, #3D6066, #edd1b0);
-    padding: 8px 8px 32px 8px;
+    background-image: linear-gradient(to bottom right, #3D6066, #edd1b0);
+    padding: 0px 8px 0px 8px;
 }
 
 .header img {
