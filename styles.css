@@ -12,7 +12,7 @@
 }
 
 body {
-    background-color: #edd1b0;
+    background-color: #3D6066;
     font-family:'Times New Roman', Times, serif;
     margin: 0;
 }
@@ -30,5 +30,6 @@ hr {
 }
 
 .content {
-    margin: 16px;
+    padding: 16px;
+    background-color: #edd1b0;
 }
