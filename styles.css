@@ -33,3 +33,8 @@ hr {
     padding: 16px;
     background-color: #edd1b0;
 }
+
+.content img {
+    border:6px solid #3D6066;
+    border-radius:6px;
+}
